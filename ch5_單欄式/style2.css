@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f2e9c6;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color:#FFF;
+}
+.header{
+    position: relative;
+    background-image: url("./img/banner_bg.jpg");
+    height: 200px;
+}
+.header h1{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.header ul{
+    position:absolute;
+    left:1030px;
+    top:50px;
+}
+.header ul li{
+    list-style: none;
+    float: left;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #FFF;
+}
+/* Nav 區 */
+.nav{
+    background-color: #795d59;
+    padding:10px;
+    overflow: hidden;
+}
+.nav ul{
+    margin:0 70px;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+}
+.nav li a{
+    display: block;
+    width:120px;
+    height:40px;
+    background-color:#cab29c;
+    color: #514133;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: center;
+    line-height:40px;
+    border-radius: 6px;
+}
+.nav ul li a:hover{
+    background-color: #FE5E00;
+    color: #FFF;
+}
+/* content 區 */
+.content{
+    text-align: center;
+}
+.content p{
+    line-height:36px;
+    font-size:20px;
+}
+/* info 區 */
+.info{
+    background-color: #a39466;
+    overflow: hidden;
+    padding:20px 75px;
+}
+.info .box{
+    float:left;
+    margin: 20px;
+}
+.info .box img{
+    border:5px solid #FFF;
+    border-radius:50%;
+}
+.info .box h3{
+    text-align: center;
+    color:white;
+}
+/* footer 區 */
+.footer{
+    background-color: rgb(131, 27, 27);
+    padding:20px;
+    color:white;
+    text-align: center;
+}

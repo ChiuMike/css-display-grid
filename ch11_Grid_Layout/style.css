@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(transparent,rgba(113,188,74,0.8)),
+    linear-gradient(to right,#9c1d2d,#5321c6);
+    font-family: Helvetica, Arial,"微軟正黑體","sans-serif";
+    padding:20px;
+}
+.container{
+    background-color: rgba(255,255,255,0.4);
+    width: 1120px;
+    margin:0 auto;
+    text-align:center;
+    padding:40px;
+}
+.container .photo{
+    border-radius: 50%;
+    border: #FFF 5px solid;
+    margin-bottom: 20px;
+}
+.container h1{
+    margin-bottom: 20px;
+}
+@font-face{
+    font-family:"Icons Social Media";
+    src:url("./img/Icons Social Media 8.ttf");
+}
+.container ul{
+    margin: 20px 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.container li a{
+    font-family: "Icons Social Media";
+    font-size:60px;
+    text-decoration: none;
+    margin: 3px;
+}
+.container .box{
+    display: grid;
+    /* 1等分 1等分 1等分，即每一列分成三行 */
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 20px;
+}
+.container .box div{
+    background-color:rgba(255,255,255,0.4);
+    border-radius:15px;
+    padding-bottom:15px;
+}
+.container .box div img{
+    border-radius: 15px 15px 0 0;
+}
+
+.container .box .b2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.container .box .b3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.container .box .b4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:4;
+}
+.container .box .b6{
+    background-color: rgba(255,255,255,0.4);
+    padding:20px;
+    font-size: 20px;font-weight: bold;
+    color: #5B2E1F;
+}
+.container .box .b6 h3{
+    font-size:60px;
+}

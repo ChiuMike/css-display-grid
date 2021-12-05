@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:bisque;
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.header{
+    background-image: url("./img/header_bg.jpg");
+    width:1200px;
+    height: 300px;
+    position: relative;
+    border-bottom: #5d5d5d 4px solid;
+}
+.header h1{
+    position: absolute;
+    top:80px;
+    left:180px;
+}
+.box{
+    display: flex;
+}
+.nav{
+    width:160px;
+    background-image: url("./img/nav_bg.jpg");
+    padding:40px 20px;
+}
+.nav h3{
+    background-color:#6f5f4d;
+    color:#FFE57A;
+    text-align: center;
+    line-height:50px;
+    border-radius: 20px 20px 0 0;
+    border-bottom: #958269 5px solid;
+}
+.nav ul{
+    background-color:rgba(190, 145, 56, 0.6);
+    padding:20px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height:60px;
+    color: #FFF;
+}
+.nav ul li a b{
+    font-family: entypo;
+    font-size: 50px;
+    font-weight: normal;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+@font-face{
+    font-family:entypo;
+    src:url("./img/Entypo-webfont.ttf"),
+        url("./img/Entypo-webfont.woff"),
+        url("./img/Entypo-webfont.eot"),
+        url("./img/Entypo-webfont.svg")
+}
+.content{
+    width:760px;
+    padding:40px 20px;
+    background-color: #FFF3d1;
+}
+.content h3{
+    color:#644d1a;
+    border-left: #99cc66 20px solid;
+    text-indent: 8px;
+    margin-bottom:15px;
+}
+.content img{
+    border:#FFF 6px solid;
+    box-shadow: 2px 3px 5px #000;
+    margin:0 15px 15px 0;
+    float:left;
+}
+.content p{
+    margin-bottom:15px;
+    text-align: justify;
+}
